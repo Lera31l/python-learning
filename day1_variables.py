@@ -18,7 +18,7 @@ print(" ")
 print("Сумма:", a+b)
 print("Разность:", a-b)
 print("Произведение:", a*b)
-print("Частное:", a//b)
+print("Частное:", a/b)
 
 my_game = "Void Cleaner"
 neuro_shards = 1.234
