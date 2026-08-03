@@ -16,4 +16,4 @@ print("Ты ввел числа: " + a + " и " + b)
 name1 = input("Как тебя зовут? ")
 Shards = input("Сколько у тебя NeuroShards? ")
 
-print("Игрок " + name1 + " имеет " + cache + " NeuroShards. Удачи в очистке сектора!" )
+print("Игрок " + name1 + " имеет " + Shards + " NeuroShards. Удачи в очистке сектора!" )
