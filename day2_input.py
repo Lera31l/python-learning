@@ -1,19 +1,19 @@
 
 
 name = input("Как тебя зовут? ")
-print("Привет, "+name)
-gamy = input("Чем нравиться заниматься? ")
-print("Отличный выбор! Ты будешь заниматься " +gamy)
+print("Привет, " + name)
+
+game = input("В какую игру хочешь поиграть? ")
+print("Отличный выбор! Ты будешь играть в " + game)
 
 a = input("Напиши первое число: ")
 b = input("Напиши второе число: ")
 
-print("Первое чилсо: " + a)
+print("Первое число: " + a)
 print("Второе число: " + b)
-print("Ты ввел числа: " + a + " и " + b)
+print("Ты ввёл числа: " + a + " и " + b)
 
+player_name = input("Как тебя зовут? ")
+shards = input("Сколько у тебя NeuroShards? ")
 
-name1 = input("Как тебя зовут? ")
-Shards = input("Сколько у тебя NeuroShards? ")
-
-print("Игрок " + name1 + " имеет " + Shards + " NeuroShards. Удачи в очистке сектора!" )
+print("Игрок " + player_name + " имеет " + shards + " NeuroShards. Удачи в очистке сектора!")
