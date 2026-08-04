@@ -3,13 +3,13 @@
 heroes = ["Purge", "Reaver", "Specter", "Bastion"]
 
 # Выводим каждого по отдельности
-print(heroes [0])
-print(heroes [1])
-print(heroes [2])
-print(heroes [3])
+print(heroes[0])
+print(heroes[1])
+print(heroes[2])
+print(heroes[3])
 
 # Узнаём, сколько героев
-print ("Всего героев: ", len(heroes))
+print ("Всего героев:", len(heroes))
 
 # Добавляем нового героя
 new_hero = input("Введи имя нового героя: ")
@@ -24,5 +24,5 @@ print(heroes)
 print("Первый герой:", heroes[0])
 print("Последний герой:", heroes[-1])   # -1 всегда означает последний элемент
 
-weapons = ["Purge", "Reaver", "Specter", "Bastion"]
+weapons = ["Plasma Rifle", "Railgun", "Shotgun Blaster", "EMP Cannon"]
 print("Всего оружия: ",len(weapons))
